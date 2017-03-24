@@ -14,3 +14,10 @@ Design and thinking about how to use the cube to produce the effect of the ocean
 a <canvas>label,Just need to define a div element in canvas can be loaded, canvas is dynamically generated, the definition of data.now () 
 function.Add a scene. Cameras, the renderer and lights,Light setting can create a feeling of sunlight.
 21/03/2017
+Add cockpit,engine and TailPlane.A cube, for example, can be modified by moving its vertices. In our case we want to make it look more like a cockpit.can access a specific vertex of a shape through the vertices array, and then move its x, y and z property.
+22/03/2017
+Add SideWing,Propeller,Blade.
+23/03/2017
+Using the cube to create the prototype, the use of MeshPhongMaterial to each the color Settings,incude ambient,(Set the material environment).emissive(Set up the launch of the color material),specular(Specify the material of light and the color of the highlight part).
+24/03/2017
+To complete the code of this part of the sea, to produce the effect of wave, use computeMorphNormals method and the Vertex Normal method, Using trigonometric functions and timer to define the number of times and cycles.
