@@ -39,3 +39,12 @@ Using the cube to create the prototype, the use of MeshPhongMaterial to each the
 
 24/03/2017
 To complete the code of this part of the sea, to produce the effect of wave, use computeMorphNormals method and the Vertex Normal method, Using trigonometric functions and timer to define the number of times and cycles.
+
+
+
+25/03/2017
+Use function onResize (),Event occurs when the window or frame is adjusted for hours.Use the event listeners.
+
+26/03/2017
+
+Debug the color of the sea and the aircraft, the final rendering and improvement.
